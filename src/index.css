@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App{
+  min-height: 100vh;
+  background: url(Assets/Images/bg.jpg)  no-repeat 0;
+  background-size: cover;
+  position: relative;
+}
+
+.App::before{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  opacity: 0.9;
+  background: rgb(0,37,79);
+  background: linear-gradient(0deg, rgba(0,37,79,1) 10%, rgba(0,0,0,1) 70%);
+}
