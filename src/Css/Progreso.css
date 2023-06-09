@@ -24,3 +24,18 @@
     font-weight: 400;
     margin: 16px 8px;
 }
+
+.contProgreso{
+    width: 95%;
+    -webkit-box-shadow: 0px 0px 23px 3px rgba(200,155,60,1);
+    -moz-box-shadow: 0px 0px 23px 3px rgba(200,155,60,1);
+    box-shadow: inset 1px 1px 14px 3px rgba(200,155,60,1);
+    clip-path: polygon(2% 0%, 100% 0%, 98% 100%, 0% 100%);
+}
+
+.contProgreso--porcentaje{
+    width: 100%;
+    background: rgb(0 0 0 / 50%);
+    padding: 10px;
+    clip-path: polygon(2% 0%, 100% 0%, 98% 100%, 0% 100%);
+}

@@ -7,12 +7,15 @@ const Progreso = () => {
             <Container className="mt-5 position-relative">
                 <Row>
                     <Col sm className="p-2 mx-1 pt-4 contenedorSuperior">
-                        <h3 className="contenedorSuperior__titulo">Progeso de películas reproducidas</h3>
-                        <p className="contenedorSuperior__progreso">100 películas<br/>Meta de producción</p>   
+                        <h3 className="contenedorSuperior__titulo mb-3">Progeso de películas reproducidas</h3>
+                        <p className="contenedorSuperior__progreso">100 películas<br/>Meta de producción</p>
+                        <div className="contProgreso mx-auto p-2">
+                            <div className="contProgreso--porcentaje"></div>
+                        </div>
                     </Col>
 
                     <Col sm className="p-2 mx-1 contenedorSuperior">
-                        <iframe width="100%" height="100%" title="Trailer" src="https://www.youtube.com/embed/oBmazlyP220" frameborder="0" ></iframe>
+                        <iframe width="100%" height="100%" title="Trailer" src="https://www.youtube.com/embed/oBmazlyP220" ></iframe>
                     </Col>
 
                     <Col sm className="p-2 mx-1 contenedorSuperior">
