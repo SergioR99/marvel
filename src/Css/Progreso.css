@@ -1,0 +1,26 @@
+.contenedorSuperior {
+    background: #0E0F0F;
+    border: 1px solid #42331A;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.contenedorSuperior__titulo {
+    font-family: 'Beaufort';
+    font-size: 1.25rem;
+    text-align: center;
+    color: #F0E6D2;
+    font-weight: 500;
+}
+
+.contenedorSuperior__progreso{
+    font-family: 'Beaufort';
+    font-size: 0.6rem;
+    text-align: right;
+    color: #C89B3C;
+    font-weight: 400;
+    margin: 16px 8px;
+}

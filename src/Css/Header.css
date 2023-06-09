@@ -1,3 +1,8 @@
+.navegadorGeneral{
+    border-bottom: 1px solid #3C3C41;
+    background-color: #000;
+}
+
 .items-menu a{
     color: #FFF;
     font-family: 'Beaufort';
@@ -31,4 +36,9 @@
 
 .items-menu a:hover:before{
     bottom: 72%;
+}
+
+.iconoHeader--item__imagen{
+    color: #FFF;
+    width: 25px;
 }
